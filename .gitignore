@@ -32,3 +32,19 @@ iosApp/SentryLocal/Sentry.xcframework
 # Raw Roborazzi renders (README copies live in docs/screenshots)
 composeApp/screenshots/
 __pycache__/
+
+# Secrets / env files — never commit
+.env
+.env.*
+!.env.example
+**/Secrets.xcconfig
+*.pem
+*.p8
+*.p12
+*.keystore
+service-account*.json
+
+# Crash dumps, replay logs, executables
+hs_err_pid*.log
+replay_pid*.log
+*.exe
