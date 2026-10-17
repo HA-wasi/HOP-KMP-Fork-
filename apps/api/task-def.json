@@ -36,15 +36,15 @@
                 },
                 {
                     "name": "SUPABASE_URL",
-                    "value": "https://bfijluuhbkqoldnszeqc.supabase.co"
+                    "value": "${SUPABASE_URL}"
                 },
                 {
                     "name": "DATABASE_URL",
-                    "value": "postgresql://hop:Ha8801712014742@hop-staging-db.czckaqcosg7x.eu-west-1.rds.amazonaws.com:5432/hop_db?sslmode=require"
+                    "value": "${DATABASE_URL}"
                 },
                 {
                     "name": "SUPABASE_SERVICE_ROLE_KEY",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJmaWpsdXVoYmtxb2xkbnN6ZXFjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Njg3ODc2NiwiZXhwIjoyMDkyNDU0NzY2fQ.u_Zz9Uijkn55HRtw5w3pguexx7dl6yf5FPLlhTH0zww"
+                    "value": "${SUPABASE_SERVICE_ROLE_KEY}"
                 },
                 {
                     "name": "REDIS_PORT",
